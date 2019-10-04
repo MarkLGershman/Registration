@@ -1,11 +1,5 @@
 <?php
 
-/*
-VIDEO: User Registration Form
-View - https://www.patreon.com/posts/user-form-with-20817925
-Download - https://www.patreon.com/file?h=20817925&i=2520357
-*/
-
 session_start();
 $_SESSION['message'] = '';
 $mysqli = new mysqli("localhost", "root", "mypass", "accounts");
